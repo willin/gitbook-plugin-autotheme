@@ -1,0 +1,42 @@
+{
+	"name": "gitbook-plugin-autotheme",
+	"version": "1.0.0",
+	"description": "Gitbook 自动切换主题插件",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/willin/gitbook-plugin-autotheme.git"
+	},
+	"keywords": ["gitbook", "plugin", "auto", "theme", "change"],
+	"author": "Willin Wang",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/willin/gitbook-plugin-autotheme/issues"
+	},
+	"homepage": "https://github.com/willin/gitbook-plugin-autotheme#readme",
+	"engines": {
+    "gitbook": "*"
+  },
+	"gitbook": {
+		"properties": {
+			"white": {
+				"type": "array",
+				"title": "White Hours",
+				"required": false,
+      	"default": [9, 10, 11, 12, 13, 14, 15, 16]
+			},
+      "sepia": {
+				"type": "array",
+				"title": "Sepia Hours",
+				"required": false,
+      	"default": [6, 7, 8, 17, 18, 19]
+			},
+			"night": {
+				"type": "array",
+				"title": "Night Hours",
+				"required": false,
+				"default": [20, 21, 22, 23, 0, 1, 2, 3, 4, 5]
+			}
+		}
+	}
+}
