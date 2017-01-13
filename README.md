@@ -1,4 +1,4 @@
-# Gitbook Donate Plugin
+# Gitbook AutoTheme Plugin
 
 [![npm](https://img.shields.io/npm/v/gitbook-plugin-autotheme.svg?style=plastic)](https://npmjs.org/package/gitbook-plugin-autotheme) [![npm](https://img.shields.io/npm/dm/gitbook-plugin-autotheme.svg?style=plastic)](https://npmjs.org/package/gitbook-plugin-autotheme) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-autotheme.svg?style=plastic)](https://npmjs.org/package/gitbook-plugin-autotheme)
 

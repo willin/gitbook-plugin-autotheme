@@ -1,6 +1,6 @@
 {
 	"name": "gitbook-plugin-autotheme",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Gitbook 自动切换主题插件",
 	"main": "index.js",
 	"repository": {
